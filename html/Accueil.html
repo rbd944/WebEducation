@@ -1,31 +1,54 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head> 
-        <link rel= "stylesheet" href="../css/styles.css">
-        <title>
-            EduQuali - Accueil
-        </title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <title>EduQuali - Accueil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Niveau_1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
 
-    <body>
-        <header>
-            <h1> Pour une éducation de qualité</h1>
-            <a href="https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd4-veiller-a-ce-que-tous-puissent-suivre-une-education-de-qualite-dans-des">
-                <img src = "../img/Logo.png" alt = "logo_img" height="100" width="300" ></a>
-            <nav>
-                <a href="./Accueil.html">Accueil</a>
-                <a href="./Cours.html">Cours</a>
-                <a href="./Quiz.html"> Quiz</a>
-                <a href="./apropos.html"> à propos</a>
-            </nav>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="../img/Logo.png" alt="Logo EduQuali" class="logo">
+            </a>
+        </div>
+        <h1>Pour une éducation de qualité</h1>
+        <nav>
+            <a href="cours.html">Cours</a>
+            <a href="quiz.html">Quiz</a>
+            <a href="apropos.html">À propos</a>
+        </nav>
+    </header>
 
+    <main>
+        <section class="intro">
+            <h2>Le soutien scolaire pour réussir son année du CP à la Terminale</h2>
+            <p>Des ressources pédagogiques certifiées, pour tous les niveaux et accessibles partout.</p>
+        </section>
 
-        </header>
-        <footer>
-            <p> © 2023 Education de qualité. Tous droits réservés. </p>
-            </footer>
-    </body>
+        <section class="stats">
+            <div class="stat-box">
+                <img src="../img/eleves.png" alt="Élèves" />
+                <p><strong>+2.3</strong> points en moyenne pour nos élèves</p>
+            </div>
+            <div class="stat-box">
+                <img src="../img/parents.png" alt="Parents" />
+                <p><strong>92%</strong> de parents satisfaits</p>
+            </div>
+            <div class="stat-box">
+                <img src="../img/store.png" alt="App Stores" />
+                <p><strong>4.8/5</strong> sur App Store et Play Store</p>
+            </div>
+            <!--Autres stats si besoin-->
+        </section>
+    </main>
 
+    <footer>
+        <p>© 2025 EduQuali. Tous droits réservés.</p>
+    </footer>
+</body>
 </html>
