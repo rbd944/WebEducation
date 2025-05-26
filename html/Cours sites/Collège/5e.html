@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>EduQuali - Cours</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../css/Niveau_2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="../../../js/Chapitres.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="../../../img/Logo.png" alt="Logo EduQuali" class="logo">
+            </a>
+        </div>
+        <h1>EduQuali - Cours</h1>
+        <nav>
+            <a href="../../../html/Accueil.html">Accueil</a>
+            <a href="../../../html/Quiz.html">Quiz</a>
+            <a href="../../../html/Cours.html">Cours</a>
+            <a href="../../../html/apropos.html">À propos</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Matière : Maths -->
+        <div class="postit">
+            <h3>Maths</h3>
+            <div class="chapters">
+                <div class="chapter">
+                    <h4 onclick="toggleChapter(this)">
+                        1. Nombres relatifs <span class="arrow">▶</span>
+                    </h4>
+                    <div class="chapter-content">
+                        <iframe src="https://www.youtube.com/embed/3rXse_lbAKk" allowfullscreen></iframe>
+                        <a class="pdf-link" href="../../../pdfs/relatifs.pdf" target="_blank">Télécharger le PDF</a>
+                    </div>
+                </div>
+                <div class="chapter">
+                    <h4 onclick="toggleChapter(this)">
+                        2. Proportionnalité <span class="arrow">▶</span>
+                    </h4>
+                    <div class="chapter-content">
+                        <iframe src="https://www.youtube.com/embed/VIDEO_ID2" allowfullscreen></iframe>
+                        <a class="pdf-link" href="../../../pdfs/proportionnalite.pdf" target="_blank">Télécharger le PDF</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Matière : Physique-Chimie -->
+        <div class="postit">
+            <h3>Physique-Chimie</h3>
+            <div class="chapters">
+                <div class="chapter">
+                    <h4 onclick="toggleChapter(this)">
+                        Circuits électriques <span class="arrow">▶</span>
+                    </h4>
+                    <div class="chapter-content">
+                        <iframe src="https://www.youtube.com/embed/VIDEO_ID3" allowfullscreen></iframe>
+                        <a class="pdf-link" href="../../../pdfs/circuits.pdf" target="_blank">Télécharger le PDF</a>
+                    </div>
+                </div>
+                <div class="chapter">
+                    <h4 onclick="toggleChapter(this)">
+                        États de la matière <span class="arrow">▶</span>
+                    </h4>
+                    <div class="chapter-content">
+                        <iframe src="https://www.youtube.com/embed/VIDEO_ID4" allowfullscreen></iframe>
+                        <a class="pdf-link" href="../../../pdfs/etats-matiere.pdf" target="_blank">Télécharger le PDF</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer><br>
+        <p>© 2025 EduQuali. Tous droits réservés.</p>
+        <a id="f1" href="apropos.html">À propos</a>
+    </footer>
+</body>
+</html>
