@@ -1,8 +1,25 @@
+html {
+    height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 0;
     background-color: #f4f4f4;
     color: #333;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -12,6 +29,9 @@ header {
     text-align: center;
 }
 
+main {
+    flex: 1;
+}
 nav a {
     margin: 0 15px;
     color: white;
@@ -29,8 +49,14 @@ h1{
 }
 
 h2{
+    font-size: 35px;
     text-align: center;
 }
+
+.Emoji {
+    height: 150px;
+}
+
 .logo {
     height: 80px;
 }
@@ -65,7 +91,7 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding-bottom: 500px;
+    padding-bottom: 70px;
 }
 
 .niveau-container {
@@ -80,7 +106,7 @@ footer {
     position:relative;
     background: #fdf38e;
     padding: 10px;
-    width: 150px;
+    width: 170px;
     text-align: center;
     cursor: pointer;
     transition: transform 0.2s;
