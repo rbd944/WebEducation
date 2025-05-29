@@ -192,3 +192,187 @@ section h1,p{
     color: #4f8ef7;
     text-decoration: underline;
 }
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f4fff8;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+th {
+    background-color: #5cd7d7;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+td {
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+
+tr:nth-child(even) {
+    background-color: #e8f5e9;
+}
+
+#TabTete{
+    background-color: #43b8d5;
+    color: white;
+    padding: 15px;
+    text-align:center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+form {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #d9eeee;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea,
+form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #18411a;
+    border-radius: 8px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+
+form input[type="submit"],
+form button {
+    display: block; 
+    margin: 20px auto;
+    background-color: #338db1;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+
+form input[type="submit"]:hover,
+form button:hover {
+    background-color: #136b83;
+}
+
+
+
+.quiz{
+    display: none;
+}
+
+section input[type="text"]{
+    width: 250px;
+    height: 25px;
+}
+
+section h3{
+    font-size: 50px;
+}
+
+#chatbox {
+    margin: 40px auto;
+    background-color: white;
+    border: 4px solid #a0fcc6;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    padding: 20px;
+    height: 400px;
+    width: 80%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#chatbox input[type="text"] {
+    width: 65%;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+#chatbox button {
+    background-color: #338db1;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#chatbox button:hover {
+    background-color: #3defde;
+}
+
+h3 {
+    text-align: center;
+}
+
+#user_input {
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+#informations legend {
+    font-size: 1.6em;
+    font-weight: 700;
+    color: #1a5dc1;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 10px;
+    background-color: #d0f0d5;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#informations label {
+    font-size: 1em;
+    color: #0fbab7;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+#informations .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.date_de_naissance {
+    
+}
