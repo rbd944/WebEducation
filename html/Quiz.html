@@ -21,6 +21,7 @@
         <nav>
             <a href="accueil.html">Accueil</a>
             <a href="cours.html">Cours</a>
+            <a href="Chatbot.html">Chatbot</a>
             <a href="apropos.html">À propos</a>
         </nav>
     </header><br>
@@ -104,8 +105,9 @@
                 <li>Donnez un exemple de mesure favorisant l'éducation de qualité :</li><br>
                 <input type="text" id="exemple" name="exemple"><br><br>
             </ol>
+            <button type="submit" value="Envoyer" class="bquiz" onclick="submitQuiz()">Envoyer</button>
         </fieldset>
-        <button type="submit" value="Envoyer" class="quiz" onclick="submitQuiz()">Envoyer</button>
+        
     </form>
 
     <main class="box">
@@ -122,17 +124,10 @@
         </table>
     </main>
 
-    <section id="chatbox">
-        <h3>Chatbot – Éducation</h3>
-        <div id="chat-box"></div>
-        <input type="text" id="user_input" placeholder="Posez une question...">
-        <button onclick="fetchJSON('../json/intents.json')">Envoyer</button>
-    </section>
-
     <footer>
         <br>©️2025 EduQuali – Tous droits réservés.
         <p>Basé sur les Objectifs de Développement Durable de l'ONU.</p>
-        <a href="https://www.un.org/sustainabledevelopment/fr/education/">En savoir plus sur l’ODD 4</a>
+        <a id="f1" href="apropos.html">En savoir plus sur l’ODD 4</a>
     </footer>
 </body>
 </html>

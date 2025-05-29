@@ -141,3 +141,10 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
 });
+
+window.addEventListener("DOMContentLoaded", () => {
+    const chatBox = document.getElementById("chat-box");
+    if (chatBox) {
+        chatBox.innerHTML = ""; // Supprime tous les logs précédents
+    }
+});

@@ -25,115 +25,23 @@
             <a href="apropos.html">À propos</a>
         </nav>
     </header><br>
-    <h2>ODD : Offrir une éducation de qualité pour tous</h2>
-
-    <section>
-        <table id="Tableau">
-            <caption id="TabTete">Données clés sur l'ODD 4</caption>
-            <thead>
-                <tr>
-                    <th>Indicateur</th>
-                    <th>Objectif</th>
-                    <th>Situation actuelle</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Taux d'alphabétisation</td>
-                    <td>100 % chez les jeunes de 15 à 24 ans</td>
-                    <td>87 % (2023)</td>
-                </tr>
-                <tr>
-                    <td>Accès à l’éducation primaire</td>
-                    <td>Éducation gratuite et équitable</td>
-                    <td>82 % des pays offrent l’éducation gratuite</td>
-                </tr>
-                <tr>
-                    <td>Égalité filles/garçons</td>
-                    <td>Parité dans l’accès à l’école</td>
-                    <td>Amélioration continue depuis 2015</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-
-    <form method="post" name="Quiz" action="#" class="box" id="QuizId" onsubmit="return false">
-        <fieldset id="informations">
-            <legend>Vos informations</legend>
-            <div class="form-group">
-                <label for="nom">Nom :</label><br>
-                <input type="text" id="nom"><br>
+    <h2>ODD : Offrir une éducation de qualité pour tous</h2><br>
+    <main>
+        <section id="chatbox">
+            <h3>Chatbot – Éducation</h3>
+            <div id="chat-container">
+                <div id="chat-box"></div>
+                <div id="chat-input">
+                    <input type="text" id="user_input" placeholder="Posez une question...">
+                    <button onclick="fetchJSON('../json/intents.json')">Envoyer</button>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="prenom">Prenom :</label><br>
-                <input type="text" id="prenom"><br>
-            </div>
-            <div class="form-group">
-                <label for="date_naissance">Date de naissance :</label><br>
-                <input type="date" id="date_naissance"><br>
-            </div>
-            <div class="form-group">
-                <label for="email">Adresse mail :</label><br>
-                <input type="email" id="email"><br>
-            </div>
-            <div class="form-group">
-                <label for="statut">Statut :</label><br>
-                    <select id="statut">
-                        <option>Choisissez un statut</option>
-                        <option>Élève</option>
-                        <option>Étudiant</option>
-                        <option>Enseignant</option>
-                        <option>Autre</option>
-                    </select><br>
-            </div>
-            <button type="submit" value="Commencer le quiz" onclick="quizAlert()">Commencer le quiz</button>
-        </fieldset>
-
-        <fieldset class="quiz">
-            <legend>Quiz sur l'éducation de qualité</legend>
-            <ol>
-                <li>Que signifie ODD 4 ?</li><br>
-                <label><input type="radio" name="q1" value="a"> a) Éducation de qualité pour tous</label><br>
-                <label><input type="radio" name="q1" value="b"> b) Droit au travail équitable</label><br>
-                <label><input type="radio" name="q1" value="c"> c) Accès à la santé pour tous</label><br><br>
-
-                <li>Quels sont les objectifs de l’ODD 4 ? (plusieurs réponses possibles)</li><br>
-                <label><input type="checkbox" name="q2" value="a"> a) Éducation gratuite et équitable</label><br>
-                <label><input type="checkbox" name="q2" value="b"> b) Promouvoir l’alphabétisation</label><br>
-                <label><input type="checkbox" name="q2" value="c"> c) Supprimer les réseaux sociaux</label><br><br>
-
-                <li>Donnez un exemple de mesure favorisant l'éducation de qualité :</li><br>
-                <input type="text" id="exemple" name="exemple"><br><br>
-            </ol>
-        </fieldset>
-        <button type="submit" value="Envoyer" class="quiz" onclick="submitQuiz()">Envoyer</button>
-    </form>
-
-    <main class="box">
-        <table id="result">
-            <caption id="TabTete">Résultats du Quiz</caption>
-            <thead>
-                <tr>
-                    <th>Essai</th>
-                    <th>Score</th>
-                </tr>
-            </thead>
-            <tbody>
-            </tbody>
-        </table>
+        </section>
     </main>
-
-    <section id="chatbox">
-        <h3>Chatbot – Éducation</h3>
-        <div id="chat-box"></div>
-        <input type="text" id="user_input" placeholder="Posez une question...">
-        <button onclick="fetchJSON('../json/intents.json')">Envoyer</button>
-    </section>
-
     <footer>
         <br>©️2025 EduQuali – Tous droits réservés.
         <p>Basé sur les Objectifs de Développement Durable de l'ONU.</p>
-        <a href="https://www.un.org/sustainabledevelopment/fr/education/">En savoir plus sur l’ODD 4</a>
+        <a id="f1" href="apropos.html">En savoir plus sur l’ODD 4</a>
     </footer>
 </body>
 </html>

@@ -45,8 +45,7 @@ function quizConfirm() {
                 clearInterval(interval);
                 confirmation.textContent = "C'est parti ! Bonne chance !";
                 document.getElementsByClassName("quiz")[0].style.display = "block";
-                document.querySelector('input[type="submit"][value="Envoyer"]').style.display = "inline-block";
-
+                document.querySelector('.bquiz').style.display = "block";
 
                 //Désactive la saisie
                 let infoFieldset = document.getElementById("informations");
@@ -104,6 +103,6 @@ function submitQuiz() {
 
     if (essai > 3) {
         alert("Vous avez réalisé trop d'essais")
-        document.querySelector('input[type="submit"][value="Envoyer"]').disabled = true;
+        document.querySelector('.bquiz').disabled = true;
     }
 }

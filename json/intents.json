@@ -1,0 +1,69 @@
+{
+  "intents": [
+    {
+      "tag": "greet",
+      "patterns": ["Bonjour", "Salut", "Coucou", "Bonsoir"],
+      "responses": ["Bonjour et bienvenue sur ÉduQuali ! Comment puis-je vous aider dans votre parcours éducatif ?"]
+    },
+     {
+      "tag": "how are you ?",
+      "patterns": ["Comment vas tu ?", "ça va ?"],
+      "responses": ["Tout va bien ! Et vous comment allez-vous ? N'hésitez pas à me poser des questions sur l'ODD 4."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Au revoir", "À bientôt", "Merci, au revoir"],
+      "responses": ["Merci pour votre visite ! N'hésitez pas à revenir pour plus d'informations sur l'éducation durable."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Merci", "Merci beaucoup", "C'est très utile"],
+      "responses": ["Avec plaisir ! N'hésitez pas à poser d'autres questions."]
+    },
+    {
+      "tag": "odd4_definition",
+      "patterns": ["Qu'est-ce que l'ODD 4 ?", "C'est quoi l'ODD 4 ?", "Définition ODD 4"],
+      "responses": ["L'ODD 4 est l'Objectif de Développement Durable n°4 des Nations Unies. Il vise à garantir une éducation de qualité, équitable et inclusive, et à promouvoir des possibilités d'apprentissage tout au long de la vie pour tous."]
+    },
+    {
+      "tag": "digital_inclusion",
+      "patterns": ["Comment favoriser l'inclusion numérique ?", "Éducation et numérique pour tous", "Accès au numérique"],
+      "responses": ["Favoriser l'inclusion numérique passe par l'accès aux équipements, la formation aux compétences numériques de base, et des contenus accessibles à tous, y compris aux personnes en situation de handicap."]
+    },
+    {
+      "tag": "sustainable_education",
+      "patterns": ["C'est quoi l'éducation au développement durable ?", "Comment intégrer le développement durable à l'école ?"],
+      "responses": ["L'éducation au développement durable permet aux élèves de comprendre les enjeux environnementaux, sociaux et économiques, et de développer des compétences pour agir en citoyens responsables."]
+    },
+    {
+      "tag": "access_to_education",
+      "patterns": ["Comment améliorer l'accès à l'éducation ?", "Éducation pour tous", "Inégalités dans l'éducation"],
+      "responses": ["Améliorer l'accès à l'éducation passe par des politiques inclusives, le développement d'infrastructures scolaires, la formation des enseignants et le soutien aux élèves en difficulté."]
+    },
+    {
+      "tag": "educational_resources",
+      "patterns": ["Où trouver des ressources éducatives ?", "Contenus pédagogiques en ligne", "Ressources pour enseigner le développement durable"],
+      "responses": ["Vous pouvez consulter des plateformes éducatives ouvertes, des MOOCs, des sites d’organisations comme l’UNESCO ou des portails nationaux comme Éduthèque ou Réseau Canopé."]
+    },
+    {
+      "tag": "inclusive_education",
+      "patterns": ["C'est quoi l'éducation inclusive ?", "Comment mettre en place une éducation inclusive ?"],
+      "responses": ["L’éducation inclusive vise à scolariser tous les enfants ensemble, quels que soient leurs besoins spécifiques, en adaptant les pratiques pédagogiques et les environnements d’apprentissage."]
+    },
+    {
+      "tag": "digital_skills",
+      "patterns": ["Compétences numériques essentielles", "Quels sont les savoirs numériques à transmettre ?", "Formation au numérique"],
+      "responses": ["Les compétences numériques incluent la recherche d'information, la sécurité en ligne, l'utilisation des outils collaboratifs, la programmation de base, et une compréhension critique des médias numériques."]
+    },
+    {
+      "tag": "teacher_support",
+      "patterns": ["Comment accompagner les enseignants ?", "Formation des enseignants au numérique", "Ressources pour enseignants"],
+      "responses": ["Il est essentiel de proposer des formations continues, des ressources pédagogiques actualisées, et des espaces d’échange entre pairs pour soutenir les enseignants dans la transformation numérique."]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": ["Je n’ai pas bien compris votre question. Pourriez-vous la reformuler ou préciser votre demande liée à l’éducation ou à la durabilité ?"]
+    }
+  ]
+}

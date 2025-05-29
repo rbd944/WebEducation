@@ -1,8 +1,25 @@
+html {
+    height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 0;
     background-color: #f4f4f4;
     color: #333;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -12,14 +29,9 @@ header {
     text-align: center;
 }
 
-footer {
-    font-family: 'Poppins', sans-serif;
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding-bottom: 500px;
+main {
+    flex: 1;
 }
-
 nav a {
     margin: 0 15px;
     color: white;
@@ -37,11 +49,12 @@ h1{
 }
 
 h2{
+    font-size: 35px;
     text-align: center;
 }
 
 .logo {
-    height: 50px;
+    height: 80px;
 }
 
 nav a {
@@ -115,5 +128,29 @@ iframe {
     display: block;
     margin-top: 10px;
     color: #007acc;
+    text-decoration: underline;
+}
+
+footer {
+    font-family: 'Poppins', sans-serif;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+#f1 {
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+}
+
+#f1:link,
+#f1:visited{
+    color: #ffffff;
+    text-decoration: none;
+}
+#f1:hover {
+    color: #4f8ef7;
     text-decoration: underline;
 }
