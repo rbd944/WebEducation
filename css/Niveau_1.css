@@ -79,7 +79,7 @@ h2{
     padding: 10px 20px;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px black;
 }
 
 footer {
@@ -193,7 +193,7 @@ table {
     width: 90%;
     margin: 20px auto;
     border-collapse: collapse;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px black;
     background-color: #f4fff8;
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -232,7 +232,7 @@ form {
     padding: 20px;
     background-color: #d9eeee;
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px black;
 }
 
 form label {
@@ -279,7 +279,7 @@ form button:hover {
     border-radius: 15px;
     background-color: #d9eeee;
     padding: 20px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 10px black;
     margin-top: 20px;
 }
 
@@ -292,7 +292,7 @@ form button:hover {
     background-color: #d0f0d5;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px black;
 }
 
 .quiz label {
@@ -436,7 +436,7 @@ h3 {
     padding: 10px;
     background-color: #d0f0d5;
     border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px black;
 }
 
 #informations label {
@@ -457,10 +457,195 @@ h3 {
 }
 
 input[type="date"] {
-  width: 200px;
-  height: 40px;
-  padding: 8px;
-  font-size: 16px;
-  border-radius: 8px; 
-  border: 1px solid #ccc;
+    width: 200px;
+    height: 40px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 8px; 
+    border: 1px solid #ccc;
+}
+
+.odd4 {
+    background-color: #e6f0ff;
+    padding: 30px;
+    margin: 40px auto;
+    border-radius: 15px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 4px 8px black;
+}
+.odd4 a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #4f8ef7;
+    font-weight: bold;
+    text-decoration: none;
+}
+.odd4 a:hover {
+    text-decoration: underline;
+}
+
+.odd4_logo {
+    display: block;
+    margin: 10px auto;
+    height: 100%;
+    width: 100%;
+}
+
+.temoignages {
+    background-color: #ffffff;
+    padding: 30px;
+    text-align: center;
+}
+.temoignage-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.temoignage {
+    background: #f0f8ff;
+    padding: 20px;
+    border-radius: 12px;
+    width: 300px;
+    box-shadow: 0 2px 10px black;
+}
+
+.agenda {
+    background-color: #f9fafe;
+    padding: 40px 20px;
+    border-radius: 16px;
+    max-width: 800px;
+    margin: 40px auto;
+    box-shadow: 0 4px 12px black;
+    text-align: center;
+}
+
+.agenda h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #1e3a8a;
+}
+
+.agenda-liste {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.agenda-liste li {
+    background-color: #ffffff;
+    margin: 10px 0;
+    padding: 15px 20px;
+    border-left: 5px solid #4f46e5;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    text-align: left;
+    box-shadow: 0 2px 8px black;
+    transition: transform 0.2s ease;
+}
+
+.agenda-liste li:hover {
+    transform: translateX(5px);
+}
+
+.agenda-liste .date {
+    font-weight: bold;
+    color: #4f46e5;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .agenda {
+        padding: 20px 15px;
+    }
+
+    .agenda h2 {
+        font-size: 1.5rem;
+    }
+
+    .agenda-liste li {
+        font-size: 1rem;
+        padding: 12px 16px;
+    }
+}
+
+.carte-impact {
+    padding: 40px 20px;
+    background-color: #e6f0ff;
+    text-align: center;
+    border-radius: 16px;
+    margin: 40px auto;
+}
+
+.carte-impact h2 {
+    font-size: 2rem;
+    color: #1e3a8a;
+    margin-bottom: 10px;
+}
+
+.carte-impact p {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.carte-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px black;
+}
+
+.apropos {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    line-height: 1.6;
+}
+
+.apropos h2 {
+    color: #1e3a8a;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.apropos p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.apropos-contact {
+    margin-top: 30px;
+}
+
+.linkedin-img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.apropos-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.apropos-buttons a {
+    background-color: #0a66c2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.apropos-buttons a:hover {
+    background-color: #004182;
 }
