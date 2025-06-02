@@ -111,6 +111,7 @@ footer {
 .postit:hover {
     transform: scale(1.05);
     background: #e9d92e;
+    z-index: 20;
 }
 
 .submenu {
